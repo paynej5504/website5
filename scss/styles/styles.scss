@@ -1,0 +1,26 @@
+/* side nav */
+.w3-sidenav {
+  background-color: $color-2;
+  color: $primary-color;
+}
+
+.w3-green, .w3-hover-green:hover {
+  color: $primary-color!important;
+  background-color: $color-1!important;
+}
+
+/* Patient Cards */
+.table{
+  background-color: $primary-color;
+}
+
+.table-bordered {
+  display: block;
+  width: fit-content;
+  font: $font;
+}
+
+/* Footer */
+#sticky-footer {
+  padding-top: 50px;
+}

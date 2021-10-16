@@ -1,0 +1,171 @@
+<!-- Navigation -->
+    <nav class="w3-sidenav  w3-card-2" style="width:160px;">
+        <!-- Logo -->
+        <img src="/img/EHRLogo.png" alt="logo" style="width: 100px; padding-bottom: 20px; margin-left: 30px;">
+    <div class="w3-accordion">
+        <!-- Patient Selection --> 
+        <a onclick="func1()" href="#" style="color: #006A99;">
+        Patient Selection <i class="fa fa-caret-down"></i>
+        </a>
+        <!-- Patient Selection Dropdown -->
+        <div id="dashboard" class="w3-accordion-content w3-white w3-card-4">
+        <a href="#" style="color: #006A99;">Patient Dashboard</a>
+        <a href="#" style="color: #006A99;">History</a>
+        <a href="#" style="color: #006A99;">Imaging</a>
+        <a href="#" style="color: #006A99;">Labs</a>
+        <a href="#" style="color: #006A99;">Care Plan</a>
+        </div>
+        <!-- Vitals -->
+            <a onclick="func2()" href="#" style="color: #006A99;">
+            Vitals <i class="fa fa-caret-down"></i>
+            </a>
+            <!-- Vitals dropdown -->
+            <div id="vitals" class="w3-accordion-content w3-white w3-card-4">
+            <a href="#" style="color: #006A99;">Vitals</a>
+            <a href="#" style="color: #006A99;">Weight</a>
+            <a href="#" style="color: #006A99;">Pain</a>
+            <a href="#" style="color: #006A99;">Input</a>
+            <a href="#" style="color: #006A99;">Output</a>
+            </div>
+            <!-- Patient Assessment -->
+            <a onclick="func3()" href="#" style="color: #006A99;">
+                Patient Assessment<i class="fa fa-caret-down"></i>
+            </a>
+            <div id="patientA" class="w3-accordion-content w3-white w3-card-4">
+                <!-- Daily Care -->
+                <a onclick="func6()" href="#" style="color: #006A99;">
+                    Daily Care<i class="fa fa-caret-down"></i>
+                </a>
+                <!-- Daily Care dropdown -->
+                <div id="dailyCare" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Elimination Table</a>
+                    <a href="#" style="color: #006A99;">Intake Table</a>
+                    <a href="#" style="color: #006A99;">Hygiene Table</a>
+                    <a href="#" style="color: #006A99;">Mobility Table</a>
+                </div>
+
+                <!-- General Head -->
+                <a onclick="func7()" href="#" style="color: #006A99;">General Head<i class="fa fa-caret-down"></i></a>
+                <!-- General Head dropdown -->
+                <div id="general" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Eye Table</a>
+                    <a href="#" style="color: #006A99;">Ears, Nose Oral Table</a>
+                    <a href="#" style="color: #006A99;">Head Table</a>
+                </div>
+                <!-- Cardiovascular -->
+                <a onclick="func8()" href="#" style="color: #006A99;">Cardiovascular<i class="fa fa-caret-down"></i></a>
+                <!-- Cardiovascular dropdown -->
+                <div id="cardiovascular" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Extremity Table</a>
+                </div>
+                <!-- Peripheral Assessment -->
+                <a onclick="func9()" href="#" style="color: #006A99;">Peripheral Pulse Assessment<i class="fa fa-caret-down"></i></a>
+                <!-- Peripheral Assessment dropdown -->
+                <div id="pulseAssess" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Left Carotid Table</a>
+                    <a href="#" style="color: #006A99;">Right Carotid Table</a>
+                    <a href="#" style="color: #006A99;">Left Brachial Table</a>
+                    <a href="#" style="color: #006A99;">Right Brachial Table</a>
+                    <a href="#" style="color: #006A99;">Left Radial Table</a>
+                    <a href="#" style="color: #006A99;">Right Radial Table</a>
+                    <a href="#" style="color: #006A99;">Left Femoral Table</a>
+                    <a href="#" style="color: #006A99;">Right Femoral Table</a>
+                    <a href="#" style="color: #006A99;">Left Popliteal Table</a>
+                    <a href="#" style="color: #006A99;">Right Popliteal Table</a>
+                    <a href="#" style="color: #006A99;">Left Posterior Table</a>
+                    <a href="#" style="color: #006A99;">Right Posterior Table</a>
+                    <a href="#" style="color: #006A99;">Left Dorsalis Table</a>
+                    <a href="#" style="color: #006A99;">Right Dorsalis Table</a>
+                </div>
+                <!-- Gastrointestinal -->
+                <a onclick="func10()" href="#" style="color: #006A99;">Gastrointestinal<i class="fa fa-caret-down"></i></a>
+                <!-- Gastrointestinal dropdown -->
+                <div id="gastro" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Gastrointestinal Table</a>
+                </div>
+                <!-- Genitourinary -->
+                <a onclick="func11()" href="#" style="color: #006A99;">Genitourinary<i class="fa fa-caret-down"></i></a>
+                <!-- Genitourinary dropdown -->
+                <div id="geni" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Genitourinary Table</a>
+                </div>
+                <!-- Integumentary -->
+                <a onclick="func12()" href="#" style="color: #006A99;">Integumentary<i class="fa fa-caret-down"></i></a>
+                <!-- Integumentary dropdown -->
+                <div id="inte" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Integumentary Table</a>
+                    <a href="#" style="color: #006A99;">More Info Table</a>
+                    <a href="#" style="color: #006A99;">Wound Table</a>
+                    <a href="#" style="color: #006A99;">Dressing Change Table</a>
+                </div>
+                <!-- Musculoskeletal -->
+                <a onclick="func13()" href="#" style="color: #006A99;">Musculoskeletal<i class="fa fa-caret-down"></i></a>
+                <!-- Musculoskeletal dropdown -->
+                <div id="muscle" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Musculoskeletal Table</a>
+                </div>
+                <!-- Neurological -->
+                <a onclick="func14()" href="#" style="color: #006A99;">Neurological<i class="fa fa-caret-down"></i></a>
+                <!-- Neurological dropdown -->
+                <div id="neuro" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Mental Table</a>
+                    <a href="#" style="color: #006A99;">Seizure Table</a>
+                </div>
+                <!-- Psychosocial -->
+                <a href="#" style="color: #006A99;">Psychosocial</a>
+                <!-- Respiratory -->
+                <a onclick="func15()" href="#" style="color: #006A99;">Respiratory<i class="fa fa-caret-down"></i></a>
+                <!-- Respiratory dropdown -->
+                <div id="resp" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Breathing Table</a>
+                    <a href="#" style="color: #006A99;">Oxygen Table</a>
+                    <a href="#" style="color: #006A99;">Airways Table</a>
+                </div>
+                <!-- Safety -->
+                <a onclick="func16()" href="#" style="color: #006A99;">Safety<i class="fa fa-caret-down"></i></a>
+                <!-- Safety dropdown -->
+                <div id="safety" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Safety Table</a>
+                </div>
+                <!-- Infection -->
+                <a onclick="func17()" href="#" style="color: #006A99;">Infection<i class="fa fa-caret-down"></i></a>
+                <!-- Infection dropdown -->
+                <div id="infection" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Infection Table</a>
+                </div>
+                <!-- Vascular -->
+                <a onclick="func18()" href="#" style="color: #006A99;">Vascular<i class="fa fa-caret-down"></i></a>
+                <!-- Vascular dropdown -->
+                <div id="vascular" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Vascular Table</a>
+                </div>
+                <!-- Drains & Tubes -->
+                <a onclick="func19()" href="#" style="color: #006A99;">Drains & Tubes<i class="fa fa-caret-down"></i></a>
+                <!-- Drains & Tubes dropdown -->
+                <div id="drains" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#" style="color: #006A99;">Drains & Tubes Table</a>
+                </div>
+            </div>
+            <!-- Order Entry -->
+            <a href="#" style="color: #006A99;">
+                Order Entry </i>
+            </a>
+            <!-- Medication Administration -->
+            <a onclick="func5()" href="#" style="color: #006A99;">
+                Medication Admin<i class="fa fa-caret-down"></i>
+            </a>
+            <!-- Medication Administration dropdown -->
+            <div id="medAdmin" class="w3-accordion-content w3-white w3-card-4">
+                <a href="#" style="color: #006A99;">Scheduled Medications</a>
+                <a href="#" style="color: #006A99;">PRN Medications</a>
+                <a href="#" style="color: #006A99;">Continous Medications</a>
+                <a href="#" style="color: #006A99;">Respiratory Medications</a>
+                <a href="#" style="color: #006A99;">Discontinued Medications</a>
+            </div>
+
+            <!-- Logout -->
+            <a href="#" style="color: #006A99;">
+                Logout
+            </a>
+    </div>
+    </nav>

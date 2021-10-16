@@ -1,0 +1,20 @@
+{
+  "name": "test-ejs",
+  "version": "1.0.0",
+  "description": "This is a test for using ejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charles Lutterloh",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "node-sass": "^5.0.0",
+    "scss": "^0.2.4"
+  }
+}

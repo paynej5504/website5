@@ -1,0 +1,231 @@
+<%- include("../views/partials/head.ejs") %>
+</head>
+ 
+<body>
+    <%- include("../views/partials/nav.ejs") %>
+	<!-- breadcrumbs -->
+    <nav aria-label="breadcrumb" style="margin-left: 160px;">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Patient Selection</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Patient Dashboard</li>
+        </ol>
+      </nav>
+
+    <!--patient card along top-->
+    <div class="container">
+        <div class="row">
+        <div   id="patientInfo" style="margin: auto;">
+            <!-- Patient Image -->
+            <div style="float: left;">
+                <img src="img/MichaelScott.png" alt="..." class="card-img-left" style="width: 159px;">
+            </div>
+            <!-- Patient Information Table Next to Patient Image -->
+            <div style="float: left;">
+                <table class="table table-borderless" style="margin: 0 auto; display: table; background-color: #006A99;">
+                    <thead style="color: white;">
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Gender</th>
+                        <th scope="col">MR#</th>
+                        <th scope="col">Provider</th>
+                    </tr>
+                    </thead>
+                    <tbody style="color: white;">
+                        
+                    <tr>
+                        <td>Michael Scott</td>
+                        <td>56</td>
+                        <td>Male</td>
+                        <td>1245783</td>
+                        <td>Health Insurance</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;">Room #</td>
+                        <td style="font-weight: bold;">DOB</td>
+                        <td style="font-weight: bold;">Admit Date</td>
+                        <td style="font-weight: bold;">Code</td>
+                        <td style="font-weight: bold;">Allergies</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>3/15/1965</td>
+                        <td>9/9/2021</td>
+                        <td>Full Code</td>
+                        <td>None</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Tabs -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <ul class="nav nav-tabs" style="margin-top: 30px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Imaging</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Labs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Care Plan</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Health Section Table -->
+    <div class="container">
+        <div class="row">
+            <div   id="patientInfo" style="margin: auto;">
+                <div>
+                    <table class="table table-borderless" style="margin: 0 auto; display: table; background-color: #B0D1E0; max-width: 100%; width: 1110px;">
+                        <thead style="color: #006A99;; font-size: larger;">
+                        <tr>
+                            <th scope="col">Health</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody style="color: Black;">
+                        <tr>
+                            <th>Medical Number:</th>
+                            <td>12345</td>
+                            <th>Diet:</th>
+                            <td>Regular</td>
+                            <th>Braden Scale:</th>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <th>Allergies:</th>
+                            <td>None</td>
+                            <th>Fall Rate:</th>
+                            <td>None</td>
+                            
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            
+                            <!-- Edit Button -->
+                            <td><button type="button" class="btn btn-warning">Edit</button></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vitals Section Table-->
+    <div class="container" style="padding-top: 30px;">
+        <div class="row">
+            <div   id="patientInfo" style="margin: auto;">
+                <div>
+                    <table class="table table-borderless" style="margin: 0 auto; display: table; background-color: #DBE1E4; max-width: 100%; width: 1110px;">
+                        <thead style="color: #006A99;; font-size: larger;">
+                        <tr>
+                            <th scope="col">Vitals</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody style="color: Black;">
+                        <tr>
+                            <th>Blood Pressure:</th>
+                            <td>120/80</td>
+                            <th>Respiration:</th>
+                            <td>14</td>
+                            <th>Temperature:</th>
+                            <td>98.5</td>
+                        </tr>
+                        <tr>
+                            <th>Pulse:</th>
+                            <td>70</td>
+                            <th>Oxygen Level:</th>
+                            <td>95%</td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <!-- Edit Button -->
+                            <td><button type="button" class="btn btn-warning">Edit</button></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hospital Information Section Table -->
+    <div class="container" style="padding-top: 30px;">
+        <div class="row">
+            <div   id="patientInfo" style="margin: auto;">
+                <div>
+                    <table class="table table-borderless" style="margin: 0 auto; display: table; background-color: #B0D1E0; max-width: 100%; width: 1110px;">
+                        <thead style="color: #006A99;; font-size: larger;">
+                        <tr>
+                            <th scope="col">Hospital Information</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody style="color: Black;">
+                        <tr>
+                            <th>Room Number:</th>
+                            <td>1</td>
+                            <th>Admit Date:</th>
+                            <td>9/9/2021</td>
+                            <th>Code</th>
+                            <td>Full Code</td>
+                        </tr>
+                        <tr>
+                            <th>Diagnosis:</th>
+                            <td>Annual Checkup</td>
+                            <th>Isolation Status:</th>
+                            <td>None</td>
+                            <th>Activity Level:</th>
+                            <td>N/A</td>
+                            
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <!-- Edit Button -->
+                            <td><button type="button" class="btn btn-warning">Edit</button></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50" style="margin-top: 80px;">
+        <div class="container text-center">
+            <small>Copyright &copy; Clark State College Medical Center 2021</small>
+        </div>
+    </footer>
+</body>
+ 
+</html>   
